@@ -8,8 +8,8 @@ public class DBConnection {
 
     private static final String URL =
             "jdbc:oracle:thin:@localhost:1521/XE";
-    private static final String USERNAME = "SYSTEM";
-    private static final String PASSWORD = "admin";
+    private static final String USERNAME = "your-username";
+    private static final String PASSWORD = "your-pass";
 
     public static Connection getConnection() throws SQLException {
         Connection connection = DriverManager.getConnection(
